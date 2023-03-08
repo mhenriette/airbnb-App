@@ -1,7 +1,7 @@
 import sport from '/src/assets/image 12.png'
 import bride from '/src/assets/bride.png'
 import mountain from '/src/assets/mountain.png'
-const experiences =[
+const EXPERIENCES =[
     {
         cover:sport,
         status:'sold out',
@@ -29,7 +29,5 @@ const experiences =[
         price:'From $50'
         
     }
-    
-
 ]
-export default experiences
+export default EXPERIENCES

@@ -1,5 +1,5 @@
 import groupPic from '../assets/Group 77.png'
-import experiences from "../data/experiences";
+import EXPERIENCES from '../data/experiences';
 import Card from "./Card";
 
 const Hero = () => {
@@ -13,7 +13,7 @@ const Hero = () => {
             </p>
         </div>
         <div className="flex gap-x-10">
-            {experiences.map(experience => {
+            {EXPERIENCES.map(experience => {
                 return <Card {...experience} />
             })}
         </div>

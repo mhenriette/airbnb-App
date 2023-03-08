@@ -2,7 +2,6 @@ import star from '../assets/Star.svg'
 
 const Card = ({ cover, status, rate, category, text, price }) => {
     return <div className="flex flex-col">
-
         <div className="relative">
             <img src={cover} alt='image' className="w-full h-[235px]" />
             <p className="absolute top-0 px-2 py-0.5 bg-gray-200 rounded-sm m-2">{status}</p>
