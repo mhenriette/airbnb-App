@@ -1,6 +1,9 @@
+import sport from '/src/assets/image 12.png'
+import bride from '/src/assets/bride.png'
+import mountain from '/src/assets/mountain.png'
 const experiences =[
     {
-        cover:'/src/assets/image 12.png',
+        cover:sport,
         status:'sold out',
         rate:'5.0',
         category:'(6)',
@@ -9,7 +12,7 @@ const experiences =[
         
     },
     {
-        cover:'/src/assets/bride.png',
+        cover:bride,
         status:'online',
         rate:'5.0',
         category:'(30)',
@@ -18,7 +21,7 @@ const experiences =[
         
     },
     {
-        cover:'/src/assets/mountain.png',
+        cover:mountain,
         status:'sold out',
         rate:'4.8',
         category:'(2)',
