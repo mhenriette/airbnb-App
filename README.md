@@ -1,7 +1,7 @@
 # Airbnb Site
 
 ## Deployed Link
-### [Click here](https://cerulean-tulumba-9c453b.netlify.app/)
+### [Click here](https://airbnb-site-vite.netlify.app/)
 
 
 ## Technologies
